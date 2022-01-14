@@ -73,7 +73,7 @@
 	width: 30%;
 	position: relative;
 	left: 15px;
-	bottom: 1px;
+	/*bottom: 0px;*/
 }
 
 .line-toggler {
