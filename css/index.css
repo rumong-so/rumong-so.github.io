@@ -39,7 +39,7 @@
 
 .navbar-expand-lg [src="css/logo_rumongso1.png"] {
 
-	width: 70%;
+	width: 75%;
 }
 
 .navbar-expand .nav-text {
@@ -66,6 +66,11 @@
 	transition: width 0.3s ease-out 0s;
 	position: relative;
 	top: 3px;
+}
+
+.button-toggler {
+
+	/*width: %;*/
 }
 
 .line-toggler {
