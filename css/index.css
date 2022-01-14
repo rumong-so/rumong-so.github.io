@@ -1,0 +1,81 @@
+
+@font-face {
+
+	font-family: "segoesc";
+	src: url('SEGOESC.ttf');
+}
+
+@font-face {
+
+	font-family: "brlnsr";
+	src: url('BRLNSR.ttf');
+}
+
+@font-face {
+
+	font-family: "refsan";
+	src: url('REFSAN.ttf');
+}
+
+.font-label-r {
+
+	font-family: "segoesc";
+}
+
+.bg-lavender {
+
+	background-color: lavender;
+}
+
+.navbar-expand .nav-item {
+
+	color: inherit;
+}
+
+.navbar-expand [src="css/logo_rumongso1.png"] {
+
+	width: 40%;
+}
+
+.navbar-expand-lg [src="css/logo_rumongso1.png"] {
+
+	width: 70%;
+}
+
+.navbar-expand .nav-text {
+
+	font-size: 1.40vw;
+	transform: scale(0.98,0.98);
+	transition: transform 0.3s ease-out 0s;
+	font-family: "brlnsr";
+	position: relative;
+	top: 5px;
+}
+
+.navbar-expand .nav-text:hover {
+
+	color: darkgreen;
+	cursor: pointer;
+	transform: scale(1.015,1.015);
+}
+
+.nav-text .line-navbar-menu {
+
+	width: 0%;
+	height: 2px;
+	transition: width 0.3s ease-out 0s;
+	position: relative;
+	top: 3px;
+}
+
+.line-toggler {
+
+	width: 17%;
+	height: 2px;
+	position: relative;
+	bottom: 3px;
+	transform-origin: right;
+	transform: rotate(0deg);
+	opacity: 1;
+	transition: all 0.3s ease-out 0s;
+}
