@@ -44,7 +44,7 @@
 
 .navbar-expand .nav-text {
 
-	font-size: 1.40vw;
+	font-size: 1.5vw;
 	transform: scale(0.98,0.98);
 	transition: transform 0.3s ease-out 0s;
 	font-family: "brlnsr";
