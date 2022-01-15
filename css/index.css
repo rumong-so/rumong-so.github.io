@@ -70,7 +70,7 @@
 
 .button-toggler {
 
-	width: 30%;
+	width: 50px;
 	position: relative;
 	left: 15px;
 }
@@ -87,15 +87,30 @@
 	transition: all 0.3s ease-out 0s;
 }
 
-@media only screen and (min-width: 576px) and (max-width: 768px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
 
-	.line-toggler {
+	.navbar-expand [src="css/logo_rumongso1.png"] {
 
-		bottom: 0px;
+		width: 45%;
 	}
 
-	.button-toggler {
+	.navbar-expand .nav-text {
 
-		width:  24%;
+		font-size: 1.70vw;
 	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+
+
 }
