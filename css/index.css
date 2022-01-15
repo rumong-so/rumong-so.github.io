@@ -23,11 +23,6 @@
 	src: url('consola.ttf');
 }
 
-/*.font-label-r {
-
-	font-family: "segoesc";
-}*/
-
 .bg-lavender {
 
 	background-color: lavender;
@@ -86,7 +81,7 @@
 	width: 55%;
 	height: 2px;
 	position: relative;
-	bottom: 3px;
+	bottom: 1px;
 	transform-origin: right;
 	transform: rotate(0deg);
 	opacity: 1;
@@ -109,7 +104,15 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
+	.navbar-expand-lg [src="css/logo_rumongso1.png"] {
 
+		width: 55%;
+	}
+
+	.line-toggler {
+
+		bottom: 1px;
+	}
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
