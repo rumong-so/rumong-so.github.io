@@ -59,9 +59,9 @@ function BUTTON_TOGGLER (e) {
 
 		e.target.classList.add("active");
 
-		line_toggler[0].setAttribute("style","transform: rotate(-60deg)")
+		line_toggler[0].setAttribute("style","transform: rotate(-70deg)")
 		line_toggler[1].setAttribute("style","opacity: 0")
-		line_toggler[2].setAttribute("style","transform: rotate(60deg)")
+		line_toggler[2].setAttribute("style","transform: rotate(70deg)")
 
 	} else {
 
