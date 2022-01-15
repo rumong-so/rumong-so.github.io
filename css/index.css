@@ -28,7 +28,7 @@
 	background-color: lavender;
 }
 
-.navbar-expand .nav-item {
+.nav-item {
 
 	color: inherit;
 }
@@ -88,6 +88,19 @@
 	transition: all 0.3s ease-out 0s;
 }
 
+.nav-collapse .nav-item {
+
+	width: 70%;
+	padding-left: 20px;
+}
+
+.nav-collapse {
+
+	width: 35%;
+	height: 100%;
+	position: fixed;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 
 	.navbar-expand [src="css/logo_rumongso1.png"] {
@@ -113,6 +126,11 @@
 
 		bottom: 1px;
 	}
+
+	.nav-collapse {
+
+		width: 30%;
+	}	
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
