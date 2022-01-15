@@ -73,7 +73,6 @@
 	width: 30%;
 	position: relative;
 	left: 15px;
-	/*bottom: 0px;*/
 }
 
 .line-toggler {
@@ -86,4 +85,17 @@
 	transform: rotate(0deg);
 	opacity: 1;
 	transition: all 0.3s ease-out 0s;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+	.line-toggler {
+
+		bottom: 0px;
+	}
+
+	.button-toggler {
+
+		width:  24%;
+	}
 }
