@@ -1,17 +1,23 @@
 
 var name_menu,toggler_active;
-var line_navbar=document.querySelectorAll(".nav-text .line-navbar-menu");
+var line_navbar=document.querySelectorAll(".nav-item .line-navbar-menu");
 var line_toggler=document.querySelectorAll(".button-toggler .line-toggler");
+
+// var logo_picture=document.querySelector("[src='css/logo_rumongso1.png']");
+// logo_picture.setAttribute("style","opacity: 1; bottom: 0px");
+
+$(document).ready(function() {
+
+	$("[src='css/logo_rumongso1.png']").animate({opacity: '1',bottom: '0px'},700,"jswing");
+	$(".navbar-expand .nav-item").animate({opacity: '1',top: '3px'},700,"jswing");
+	$(".button-toggler").animate({opacity: '1',bottom: '0px'},700,"jswing");
+});
 
 function MOUSEOVER_NAVBAR (e) {
 
 	name_menu=e.target.innerHTML.split("<div")[0].trim();
 	
-	if(name_menu=="Home") {
-
-		line_navbar[0].setAttribute("style","width: 100%");
-
-	} else if (name_menu=="About") {
+	if (name_menu=="About") {
 
 		line_navbar[1].setAttribute("style","width: 100%");		
 
@@ -30,11 +36,7 @@ function MOUSEOVER_NAVBAR (e) {
 
 function MOUSEOUT_NAVBAR (e) {
 	
-	if(name_menu=="Home") {
-
-		line_navbar[0].removeAttribute("style");
-
-	} else if (name_menu=="About") {
+	if (name_menu=="About") {
 
 		line_navbar[1].removeAttribute("style");
 
@@ -62,6 +64,11 @@ function BUTTON_TOGGLER (e) {
 		line_toggler[0].setAttribute("style","transform: rotate(-55deg)")
 		line_toggler[1].setAttribute("style","opacity: 0")
 		line_toggler[2].setAttribute("style","transform: rotate(55deg)")
+		$(document).ready(function() {
+
+			$(".nav-collapse").animate({left: '0px'},1000,"jswing");
+			$(".nav-collapse").animate({height: '100%'},1000,"jswing");
+		})
 
 	} else {
 
@@ -69,10 +76,15 @@ function BUTTON_TOGGLER (e) {
 		line_toggler[0].removeAttribute("style");
 		line_toggler[1].removeAttribute("style");
 		line_toggler[2].removeAttribute("style");
+		$(document).ready(function() {
+
+			$(".nav-collapse").animate({height: '1%'},1000,"jswing");
+			$(".nav-collapse").animate({left: '-300px'},1000,"jswing");
+		})		
 	}
 }
 
-var nav_text=document.querySelectorAll(".navbar-nav .nav-text");
+var nav_text=document.querySelectorAll(".navbar-nav .nav-item");
 
 	for(var i=0; i<nav_text.length; i++) {
 

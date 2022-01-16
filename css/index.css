@@ -31,6 +31,21 @@
 .nav-item {
 
 	color: inherit;
+	text-decoration: none;
+}
+
+.nav-item:hover {
+
+	color: inherit;
+	text-decoration: none;
+}
+
+[src="css/logo_rumongso1.png"] {
+
+	opacity: 0;
+	bottom: 10px;
+	position: relative;
+	transition: all 0.3 ease-out 0s;
 }
 
 .navbar-expand [src="css/logo_rumongso1.png"] {
@@ -43,24 +58,25 @@
 	width: 80%;
 }
 
-.navbar-expand .nav-text {
+.navbar-expand .nav-item {
 
 	font-size: 1.55vw;
 	transform: scale(0.98,0.98);
 	transition: transform 0.3s ease-out 0s;
 	font-family: "consola";
 	position: relative;
-	top: 3px;
+	top: -7px;
+	opacity: 0;
 }
 
-.navbar-expand .nav-text:hover {
+.navbar-expand .nav-item:hover {
 
 	color: darkgreen;
 	cursor: pointer;
 	transform: scale(1.015,1.015);
 }
 
-.nav-text .line-navbar-menu {
+.nav-item .line-navbar-menu {
 
 	width: 0%;
 	height: 2px;
@@ -74,6 +90,8 @@
 	width: 45px;
 	position: relative;
 	left: 15px;
+	opacity: 0;
+	bottom: 10px;
 }
 
 .line-toggler {
@@ -93,14 +111,21 @@
 	width: 70%;
 	padding-left: 20px;
 	font-family: "consola";
-	font-size: 3.5vw;
+	font-size: 3.6vw;
+}
+
+.nav-collapse .nav-item:hover {
+
+	color: black;
 }
 
 .nav-collapse {
 
 	width: 40%;
-	height: 100%;
+	height: 1%;
 	position: fixed;
+	left: -300px;
+	overflow: hidden;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -110,7 +135,7 @@
 		width: 45%;
 	}
 
-	.navbar-expand .nav-text {
+	.navbar-expand .nav-item {
 
 		font-size: 1.77vw;
 		top: 3px;
@@ -132,10 +157,16 @@
 	.nav-collapse {
 
 		width: 27%;
-	}	
+	}
+
+	.nav-collapse .nav-item {
+
+		font-size: 2.5vw;
+	}
+
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+/*@media only screen and (min-width: 576px) and (max-width: 767px) {
 
 
 }
@@ -143,4 +174,4 @@
 @media only screen and (min-width: 0px) and (max-width: 575px) {
 
 
-}
+}*/
