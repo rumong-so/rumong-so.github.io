@@ -1,8 +1,8 @@
 
 @font-face {
 
-	font-family: "erasmd";
-	src: url('erasmd.ttf');
+	font-family: "framdcn";
+	src: url('FRAMDCN.ttf');
 }
 
 @font-face {
@@ -131,7 +131,7 @@
 section.font-title {
 
 	/*font-size: 1.4vw;*/
-	font-family: "erasmd";
+	font-family: "framdcn";
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
