@@ -1,8 +1,8 @@
 
 @font-face {
 
-	font-family: "segoesc";
-	src: url('SEGOESC.ttf');
+	font-family: "erasmd";
+	src: url('ERASMD.ttf');
 }
 
 @font-face {
@@ -126,6 +126,12 @@
 	position: fixed;
 	left: -300px;
 	overflow: hidden;
+}
+
+section.font-title {
+
+	/*font-size: 1.4vw;*/
+	font-family: "ERASMD";
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
