@@ -111,7 +111,7 @@
 	width: 70%;
 	padding-left: 20px;
 	font-family: "consola";
-	font-size: 3.6vw;
+	font-size: 17px;
 }
 
 .nav-collapse .nav-item:hover {
@@ -121,7 +121,7 @@
 
 .nav-collapse {
 
-	width: 40%;
+	width: 160px;
 	height: 1%;
 	position: fixed;
 	top: 63px;
