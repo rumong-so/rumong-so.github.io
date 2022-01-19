@@ -55,7 +55,7 @@
 
 .navbar-expand-lg [src="css/logo_rumongso1.png"] {
 
-	width: 80%;
+	width: 160px;
 }
 
 .navbar-expand .nav-item {
@@ -124,6 +124,7 @@
 	width: 40%;
 	height: 1%;
 	position: fixed;
+	top: 66px;
 	left: -300px;
 	overflow: hidden;
 	z-index: 10;
@@ -168,7 +169,7 @@ ul.pagination {
 
 	.navbar-expand-lg [src="css/logo_rumongso1.png"] {
 
-		width: 55%;
+		width: 190px;
 	}
 
 	.line-toggler {
@@ -189,6 +190,11 @@ ul.pagination {
 	section.font-title {
 
 		font-size: 2.7vw;
+	}
+
+	.nav-collapse {
+
+		top: 76px;
 	}
 
 }
