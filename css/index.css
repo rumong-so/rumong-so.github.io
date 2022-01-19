@@ -126,7 +126,7 @@
 	position: fixed;
 	left: -300px;
 	overflow: hidden;
-	z-index: 1;
+	z-index: 10;
 }
 
 section.font-title {
@@ -138,6 +138,11 @@ section.font-title {
 .line-pagination {
 
 	height: 3%;
+}
+
+ul.pagination {
+
+	z-index: 0;
 }
 
 /*.page-item:hover {
