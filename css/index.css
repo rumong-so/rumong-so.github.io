@@ -112,6 +112,8 @@
 	/*padding-left: 20px;*/
 	font-family: "consola";
 	font-size: 17px;
+	position: relative;
+	left: 5px;
 }
 
 .nav-collapse .nav-item:hover {
