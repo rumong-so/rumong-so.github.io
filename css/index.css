@@ -144,10 +144,15 @@ ul.pagination {
 	z-index: 0;
 }
 
-/*.page-item:hover {
+.page-item:hover {
 
 	cursor: pointer;
-}*/
+}
+
+.news-content {
+
+	height: 150px;
+}
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 
@@ -195,6 +200,10 @@ ul.pagination {
 		top: 78px;
 	}
 
+	.page-item:hover {
+
+		cursor: default;
+	}	
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -207,5 +216,10 @@ ul.pagination {
 	section.font-title {
 
 		font-size: 4.7vw;
+	}
+
+	.page-item:hover {
+
+		cursor: default;
 	}
 }

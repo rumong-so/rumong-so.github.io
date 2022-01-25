@@ -1,10 +1,10 @@
 
-var name_menu,toggler_active;
 var line_navbar=document.querySelectorAll(".nav-item .line-navbar-menu");
 var line_toggler=document.querySelectorAll(".button-toggler .line-toggler");
-
-// var logo_picture=document.querySelector("[src='css/logo_rumongso1.png']");
-// logo_picture.setAttribute("style","opacity: 1; bottom: 0px");
+var page_link_top=document.querySelectorAll(".pagination-top .text-dark");
+var section_content=document.querySelectorAll("section");
+var news_content=document.querySelectorAll("div.news-content");
+var name_menu,toggler_active,pagination_active;
 
 $(document).ready(function() {
 
@@ -84,6 +84,340 @@ function BUTTON_TOGGLER (e) {
 	}
 }
 
+function PAGE_ITEM_1() {
+
+	if(news_content[2].classList.contains("d-none")==true) {
+
+		if(news_content[3].classList.contains("d-none")==true) {
+
+			news_content[2].classList.remove("d-none");
+			news_content[3].classList.remove("d-none");			
+		}
+	}
+
+	section_content[0].innerHTML="menghindari kerusakan sosial lebih di kedepankan";
+	section_content[1].innerHTML="bernahi munkar kepada yusuf mansur";
+	section_content[2].innerHTML="kali ini yusuf mansyur tidak akan bisa berkelit dari jeratan hukum";
+	section_content[3].innerHTML="ustadz tabrani sabirin: bisnis yusuf mansur pasti hancur";
+}
+
+function PAGE_ITEM_2() {
+
+	if(news_content[2].classList.contains("d-none")==true) {
+
+		if(news_content[3].classList.contains("d-none")==true) {
+
+			news_content[2].classList.remove("d-none");
+			news_content[3].classList.remove("d-none");			
+		}
+	}
+
+	section_content[0].innerHTML="akal - akalan yusuf mansur mengembalikan dana investor";
+	section_content[1].innerHTML="uztadz tabrani sabirin: yusuf mansur itu islam sontoloyo";			
+	section_content[2].innerHTML="ustadz tabrani sabirin: yusuf mansur sakit jiwa";
+	section_content[3].innerHTML="ustadz tabrani sabirin: yusuf mansur pembohong";
+}
+
+function PAGE_ITEM_3() {
+
+	if(news_content[2].classList.contains("d-none")==true) {
+
+		if(news_content[3].classList.contains("d-none")==true) {
+
+			news_content[2].classList.remove("d-none");
+			news_content[3].classList.remove("d-none");			
+		}
+	}
+
+	section_content[0].innerHTML="bersedekah kok bangkrut";
+	section_content[1].innerHTML="combe - combe yusuf mansur";
+	section_content[2].innerHTML="puspo wardoyo tantang yusuf mansur buka data ke publik";
+	section_content[3].innerHTML="yusuf mansur, kembalikan dana investor ?";
+}
+
+function PAGE_ITEM_4() {
+
+	section_content[0].innerHTML="berapa yusuf mansur harus mengembalikan dana investor ?";
+	section_content[1].innerHTML="membicarakan yusuf mansur, bukan ghibah";
+	news_content[2].classList.add("d-none");
+	news_content[3].classList.add("d-none");
+}
+
+function PAGINATION_CLICK (e) {
+
+	if(e.target.innerHTML=="1") {
+
+		if(page_item[1].classList.contains("active")==false) {
+
+			page_item[1].classList.add("active");
+			pagination_active.classList.remove("active");
+			pagination_active=page_item[1];
+
+			if(page_item[0].classList.contains("d-none")==false) {
+
+				page_item[0].classList.add("d-none");
+
+				if(page_item[5].classList.contains("d-none")==true) {
+
+					page_item[5].classList.remove("d-none");
+				}
+			} 
+		}
+
+		PAGE_ITEM_1();
+
+	} else if (e.target.innerHTML=="2") {
+
+		if(page_item[2].classList.contains("active")==false) {
+
+			page_item[2].classList.add("active");
+			pagination_active.classList.remove("active");
+			pagination_active=page_item[2];
+			page_item[0].classList.remove("d-none");
+
+			if(page_item[5].classList.contains("d-none")==true) {
+
+				page_item[5].classList.remove("d-none");
+			}
+		}		
+
+		PAGE_ITEM_2();
+
+	} else if (e.target.innerHTML=="3") {
+
+		if(page_item[3].classList.contains("active")==false) {
+
+			page_item[3].classList.add("active");
+			pagination_active.classList.remove("active");
+			pagination_active=page_item[3]		
+			page_item[0].classList.remove("d-none");
+
+				if(page_item[4].classList.contains("d-none")==true) {
+
+					page_item[5].classList.add("d-none");
+				}
+		}		
+
+		PAGE_ITEM_3();
+
+	} else if (e.target.innerHTML=="4") {
+
+		if(page_item[1].classList.contains("active")==false) {
+
+			page_item[1].classList.add("active");
+			pagination_active.classList.remove("active");
+			pagination_active=page_item[1];
+
+			if(page_item[5].classList.contains("d-none")==true) {
+
+				page_item[5].classList.remove("d-none");
+			}			
+		}		
+
+		PAGE_ITEM_4();
+
+	} else if (e.target.innerHTML=="...") {
+
+		if(page_item[1].classList.contains("active")==false) {
+
+			page_item[1].classList.add("active");
+			pagination_active.classList.remove("active");
+			pagination_active=page_item[1];
+
+			if(page_link_top[3].innerHTML=="3") {
+
+				page_link_top[1].innerHTML="4";
+				page_item[2].classList.add("d-none");
+				page_item[3].classList.add("d-none");
+				page_item[4].classList.add("d-none");
+				page_item[5].classList.add("d-none");
+
+				PAGE_ITEM_4();
+			}
+
+		} else {
+
+			page_item[0].classList.remove("d-none");
+
+			if(page_link_top[3].innerHTML=="3") {
+
+				page_link_top[1].innerHTML="4";
+				page_item[2].classList.add("d-none");
+				page_item[3].classList.add("d-none");
+				page_item[4].classList.add("d-none");
+				page_item[5].classList.add("d-none");
+
+				PAGE_ITEM_4();
+			}
+		}
+
+	} else {
+
+		$(document).ready(function() {
+
+			var raquo=$(".pagination .page-item:last").text().trim();
+			var laquo=$(".pagination .page-item:first").text().trim();
+			
+			if(e.target.innerHTML==raquo) {
+
+				if(page_item[1].classList.contains("active")==true) {
+
+					page_item[2].classList.add("active");
+					pagination_active.classList.remove("active");
+					pagination_active=page_item[2];
+					page_item[0].classList.remove("d-none");
+
+						if(page_link_top[2].innerHTML=="2") {
+
+							PAGE_ITEM_2();
+
+						} else {
+
+							if(page_item[3].classList.contains("d-none")==true) {
+
+								page_item[5].classList.add("d-none");
+
+								if(page_link_top[2].innerHTML=="5") {
+
+									PAGE_ITEM_5();
+								}
+
+							} else {
+
+								if(page_link_top[2].innerHTML=="5") {
+
+									PAGE_ITEM_5();
+								}								
+							}
+						}
+
+				} else if (page_item[2].classList.contains("active")==true) {
+
+					page_item[3].classList.add("active");
+					pagination_active.classList.remove("active");
+					pagination_active=page_item[3];
+
+						if(page_item[4].classList.contains("d-none")==true) {
+
+							page_item[5].classList.add("d-none");
+
+								if(page_link_top[3].innerHTML=="3") {
+
+									PAGE_ITEM_3();
+
+								} else {
+
+									if(page_link_top[3].innerHTML=="6") {
+
+										PAGE_ITEM_6();
+									}
+								}
+
+						} else {
+
+							if(page_link_top[3].innerHTML=="3") {
+
+								PAGE_ITEM_3();
+
+							} else {
+
+								if(page_link_top[3].innerHTML=="6") {
+
+									PAGE_ITEM_6();
+								}
+							}
+						}
+
+				} else {
+
+					if (page_item[3].classList.contains("active")==true) {
+
+						page_item[1].classList.add("active");
+						pagination_active.classList.remove("active");
+						pagination_active=page_item[1];
+
+							if(page_link_top[3].innerHTML=="3") {
+
+								page_link_top[1].innerHTML="4";
+								page_item[2].classList.add("d-none");
+								page_item[3].classList.add("d-none");
+								page_item[4].classList.add("d-none");
+								page_item[5].classList.add("d-none");
+
+								PAGE_ITEM_4();
+							}										
+					}
+				}	
+
+			} else {
+
+				if(e.target.innerHTML==laquo) {
+
+					if(page_item[3].classList.contains("active")==true) {
+
+						page_item[2].classList.add("active");
+						pagination_active.classList.remove("active");
+						pagination_active=page_item[2];
+						page_item[5].classList.remove("d-none");
+
+							if(page_link_top[2].innerHTML=="2") {
+
+								PAGE_ITEM_2();
+
+							} else {
+
+								if(page_link_top[2].innerHTML=="5") {
+
+									PAGE_ITEM_5();
+								}
+							}
+
+					} else if (page_item[2].classList.contains("active")==true) {
+
+						page_item[1].classList.add("active");
+						pagination_active.classList.remove("active");
+						pagination_active=page_item[1];						
+						page_item[5].classList.remove("d-none");
+
+							if(page_link_top[1].innerHTML=="1") {
+
+								page_item[0].classList.add("d-none");
+								PAGE_ITEM_1();
+
+							} else {
+
+								if(page_link_top[1].innerHTML=="4") {
+
+									PAGE_ITEM_4();
+								}
+							}
+
+					} else {
+
+						if (page_item[1].classList.contains("active")==true) {
+
+							page_item[3].classList.add("active");
+							pagination_active.classList.remove("active");
+							pagination_active=page_item[3];							
+
+								if(page_link_top[1].innerHTML=="4") {
+
+									page_link_top[1].innerHTML="1";
+									page_item[2].classList.remove("d-none");
+									page_item[3].classList.remove("d-none");
+									page_item[4].classList.remove("d-none");
+									page_item[5].classList.remove("d-none");
+
+									PAGE_ITEM_3();
+								}
+						}
+					}								
+				}
+			}
+		})
+	}
+}
+
 var nav_text=document.querySelectorAll(".navbar-nav .nav-item");
 
 	for(var i=0; i<nav_text.length; i++) {
@@ -98,3 +432,15 @@ var nav_text=document.querySelectorAll(".navbar-nav .nav-item");
 
 var button_toggler=document.querySelector(".navbar-expand-lg .button-toggler");
 button_toggler.addEventListener("click",BUTTON_TOGGLER);
+
+var page_item=document.querySelectorAll(".pagination .page-item");
+
+	for(var i=0; i<page_item.length; i++) {
+
+		page_item[i].addEventListener("click",PAGINATION_CLICK);
+
+		if(page_item[i].classList.contains("active")==true) {
+
+			pagination_active=page_item[i];
+		}
+	}
