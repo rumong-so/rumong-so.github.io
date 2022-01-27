@@ -2,8 +2,9 @@
 var line_navbar=document.querySelectorAll(".nav-item .line-navbar-menu");
 var line_toggler=document.querySelectorAll(".button-toggler .line-toggler");
 var page_link_top=document.querySelectorAll(".pagination-top .text-dark");
-var section_content=document.querySelectorAll("section");
-var news_content=document.querySelectorAll("div.news-content");
+var section_content=document.querySelectorAll("div.news-top");
+var news_content=document.querySelectorAll(".news-content");
+var news_link=document.querySelectorAll("a.news-link");
 var name_menu,toggler_active,pagination_active;
 
 $(document).ready(function() {
@@ -11,6 +12,7 @@ $(document).ready(function() {
 	$("[src='css/logo_rumongso1.png']").animate({opacity: '1',bottom: '0px'},700,"jswing");
 	$(".navbar-expand .nav-item").animate({opacity: '1',top: '3px'},700,"jswing");
 	$(".button-toggler").animate({opacity: '1',bottom: '0px'},700,"jswing");
+	$("a.news-link").animate({opacity:"1",right:"0px"},800,"jswing");
 });
 
 function MOUSEOVER_NAVBAR (e) {
@@ -95,9 +97,16 @@ function PAGE_ITEM_1() {
 		}
 	}
 
+	news_link[0].setAttribute("href","menghindari_kerusakan_sosial_lebih_di_kedepankan.html");
 	section_content[0].innerHTML="menghindari kerusakan sosial lebih di kedepankan";
+
+	news_link[1].setAttribute("href","bernahi_munkar_kepada_yusuf_mansur.html");
 	section_content[1].innerHTML="bernahi munkar kepada yusuf mansur";
+
+	news_link[2].setAttribute("href","kali_ini_yusuf_mansyur_tidak_akan_bisa_berkelit_dari_jeratan_hukum.html");
 	section_content[2].innerHTML="kali ini yusuf mansyur tidak akan bisa berkelit dari jeratan hukum";
+
+	news_link[3].setAttribute("href","ustadz_tabrani_sabirin:_bisnis_yusuf_mansur_pasti_hancur.html");
 	section_content[3].innerHTML="ustadz tabrani sabirin: bisnis yusuf mansur pasti hancur";
 }
 
@@ -112,9 +121,16 @@ function PAGE_ITEM_2() {
 		}
 	}
 
+	news_link[0].setAttribute("href","akal_-_akalan_yusuf_mansur_mengembalikan_dana_investor.html");
 	section_content[0].innerHTML="akal - akalan yusuf mansur mengembalikan dana investor";
-	section_content[1].innerHTML="uztadz tabrani sabirin: yusuf mansur itu islam sontoloyo";			
+
+	news_link[1].setAttribute("href","uztadz_tabrani_sabirin:_yusuf_mansur_itu_islam_sontoloyo.html");
+	section_content[1].innerHTML="uztadz tabrani sabirin: yusuf mansur itu islam sontoloyo";
+
+	news_link[2].setAttribute("href","ustadz_tabrani_sabirin:_yusuf_mansur_sakit_jiwa.html");
 	section_content[2].innerHTML="ustadz tabrani sabirin: yusuf mansur sakit jiwa";
+
+	news_link[3].setAttribute("href","ustadz_tabrani_sabirin:_yusuf_mansur_pembohong.html");
 	section_content[3].innerHTML="ustadz tabrani sabirin: yusuf mansur pembohong";
 }
 
@@ -129,16 +145,27 @@ function PAGE_ITEM_3() {
 		}
 	}
 
+	news_link[0].setAttribute("href","bersedekah_kok_bangkrut.html");
 	section_content[0].innerHTML="bersedekah kok bangkrut";
+
+	news_link[1].setAttribute("href","combe_-_combe_yusuf_mansur.html");
 	section_content[1].innerHTML="combe - combe yusuf mansur";
+
+	news_link[2].setAttribute("href","puspo_wardoyo_tantang_yusuf_mansur_buka_data_ke_publik.html");
 	section_content[2].innerHTML="puspo wardoyo tantang yusuf mansur buka data ke publik";
+
+	news_link[3].setAttribute("href","yusuf_mansur,_kembalikan_dana_investor_?.html");
 	section_content[3].innerHTML="yusuf mansur, kembalikan dana investor ?";
 }
 
 function PAGE_ITEM_4() {
 
+	news_link[0].setAttribute("href","berapa_yusuf_mansur_harus_mengembalikan_dana_investor_?.html");
 	section_content[0].innerHTML="berapa yusuf mansur harus mengembalikan dana investor ?";
+
+	news_link[1].setAttribute("href","membicarakan_yusuf_mansur,_bukan_ghibah.html");
 	section_content[1].innerHTML="membicarakan yusuf mansur, bukan ghibah";
+
 	news_content[2].classList.add("d-none");
 	news_content[3].classList.add("d-none");
 }
