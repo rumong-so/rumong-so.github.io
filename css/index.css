@@ -193,11 +193,6 @@ a.news-link {
 		top: 3px;
 	}
 
-/*	.news-bottom {
-
-		font-size: 1.7vw;
-	}*/
-
 	.news-content {
 
 		height: 100%;
@@ -246,11 +241,6 @@ a.news-link {
 		height: 100%;
 	}	
 
-/*	.news-image {
-
-		height: 230px;
-	}*/	
-
 	.news-bottom {
 
 		font-size: 2vw;
@@ -274,11 +264,6 @@ a.news-link {
 		cursor: default;
 	}
 
-/*	.news-image {
-
-		height: 250px;
-	}*/
-
 	.news-content {
 
 		height: 100%;
@@ -286,6 +271,6 @@ a.news-link {
 
 	.news-bottom {
 
-		font-size: 3vw;
+		font-size: 3.5vw;
 	}
 }
