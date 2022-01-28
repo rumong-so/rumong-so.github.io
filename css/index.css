@@ -151,7 +151,7 @@ ul.pagination {
 
 .news-content {
 
-	height: 730px;
+	height: 100%;
 }
 
 a.news-link {
@@ -177,7 +177,7 @@ a.news-link {
 .news-bottom {
 
 	font-family: "calibri";
-	font-size: 1.3vw;
+	font-size: 1.7vw;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -193,9 +193,14 @@ a.news-link {
 		top: 3px;
 	}
 
-	.news-bottom {
+/*	.news-bottom {
 
 		font-size: 1.7vw;
+	}*/
+
+	.news-content {
+
+		height: 100%;
 	}	
 }
 
@@ -236,10 +241,15 @@ a.news-link {
 		cursor: default;
 	}
 
+	.news-content {
+
+		height: 100%;
+	}	
+
 /*	.news-image {
 
 		height: 230px;
-	}*/
+	}*/	
 
 	.news-bottom {
 
@@ -268,6 +278,11 @@ a.news-link {
 
 		height: 250px;
 	}*/
+
+	.news-content {
+
+		height: 100%;
+	}
 
 	.news-bottom {
 
