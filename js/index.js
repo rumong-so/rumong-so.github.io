@@ -5,6 +5,8 @@ var page_link_top=document.querySelectorAll(".pagination-top .text-dark");
 var section_content=document.querySelectorAll("div.news-top");
 var news_content=document.querySelectorAll(".news-content");
 var news_link=document.querySelectorAll("a.news-link");
+var img_md=document.querySelectorAll("div.news-middle img.d-lg-none");
+var img_lg=document.querySelectorAll("div.news-middle img.d-lg-inline");
 var name_menu,toggler_active,pagination_active;
 
 $(document).ready(function() {
@@ -99,15 +101,23 @@ function PAGE_ITEM_1() {
 
 	news_link[0].setAttribute("href","menghindari_kerusakan_sosial_lebih_di_kedepankan.html");
 	section_content[0].innerHTML="menghindari kerusakan sosial lebih di kedepankan";
+	img_md[0].setAttribute("src","css/gambar_1.jpg");
+	img_lg[0].setAttribute("src","css/gambar_1.jpg");
 
 	news_link[1].setAttribute("href","bernahi_munkar_kepada_yusuf_mansur.html");
 	section_content[1].innerHTML="bernahi munkar kepada yusuf mansur";
+	img_md[1].setAttribute("src","css/gambar_2.jpg");
+	img_lg[1].setAttribute("src","css/gambar_2.jpg");
 
 	news_link[2].setAttribute("href","kali_ini_yusuf_mansyur_tidak_akan_bisa_berkelit_dari_jeratan_hukum.html");
 	section_content[2].innerHTML="kali ini yusuf mansyur tidak akan bisa berkelit dari jeratan hukum";
+	img_md[2].setAttribute("src","css/gambar_3.jpg");
+	img_lg[2].setAttribute("src","css/gambar_3.jpg");
 
 	news_link[3].setAttribute("href","ustadz_tabrani_sabirin:_bisnis_yusuf_mansur_pasti_hancur.html");
 	section_content[3].innerHTML="ustadz tabrani sabirin: bisnis yusuf mansur pasti hancur";
+	img_md[3].setAttribute("src","css/gambar_4.jpg");
+	img_lg[3].setAttribute("src","css/gambar_4.jpg");
 }
 
 function PAGE_ITEM_2() {
@@ -123,15 +133,23 @@ function PAGE_ITEM_2() {
 
 	news_link[0].setAttribute("href","akal_-_akalan_yusuf_mansur_mengembalikan_dana_investor.html");
 	section_content[0].innerHTML="akal - akalan yusuf mansur mengembalikan dana investor";
+	img_md[0].setAttribute("src","css/gambar_5.jpg");
+	img_lg[0].setAttribute("src","css/gambar_5.jpg");
 
 	news_link[1].setAttribute("href","uztadz_tabrani_sabirin:_yusuf_mansur_itu_islam_sontoloyo.html");
 	section_content[1].innerHTML="uztadz tabrani sabirin: yusuf mansur itu islam sontoloyo";
+	img_md[1].setAttribute("src","css/gambar_6.jpg");
+	img_lg[1].setAttribute("src","css/gambar_6.jpg");
 
 	news_link[2].setAttribute("href","ustadz_tabrani_sabirin:_yusuf_mansur_sakit_jiwa.html");
 	section_content[2].innerHTML="ustadz tabrani sabirin: yusuf mansur sakit jiwa";
+	img_md[2].setAttribute("src","css/gambar_7.jpg");
+	img_lg[2].setAttribute("src","css/gambar_7.jpg");
 
 	news_link[3].setAttribute("href","ustadz_tabrani_sabirin:_yusuf_mansur_pembohong.html");
 	section_content[3].innerHTML="ustadz tabrani sabirin: yusuf mansur pembohong";
+	img_md[3].setAttribute("src","css/gambar_8.jpg");
+	img_lg[3].setAttribute("src","css/gambar_8.jpg");
 }
 
 function PAGE_ITEM_3() {
@@ -147,24 +165,36 @@ function PAGE_ITEM_3() {
 
 	news_link[0].setAttribute("href","bersedekah_kok_bangkrut.html");
 	section_content[0].innerHTML="bersedekah kok bangkrut";
+	img_md[0].setAttribute("src","css/gambar_9.jpg");
+	img_lg[0].setAttribute("src","css/gambar_9.jpg");
 
 	news_link[1].setAttribute("href","combe_-_combe_yusuf_mansur.html");
 	section_content[1].innerHTML="combe - combe yusuf mansur";
+	img_md[1].setAttribute("src","css/gambar_10.jpg");
+	img_lg[1].setAttribute("src","css/gambar_10.jpg");
 
 	news_link[2].setAttribute("href","puspo_wardoyo_tantang_yusuf_mansur_buka_data_ke_publik.html");
 	section_content[2].innerHTML="puspo wardoyo tantang yusuf mansur buka data ke publik";
+	img_md[2].setAttribute("src","css/gambar_11.jpg");
+	img_lg[2].setAttribute("src","css/gambar_11.jpg");
 
 	news_link[3].setAttribute("href","yusuf_mansur,_kembalikan_dana_investor_?.html");
 	section_content[3].innerHTML="yusuf mansur, kembalikan dana investor ?";
+	img_md[3].setAttribute("src","css/gambar_12.jpg");
+	img_lg[3].setAttribute("src","css/gambar_12.jpg");
 }
 
 function PAGE_ITEM_4() {
 
 	news_link[0].setAttribute("href","berapa_yusuf_mansur_harus_mengembalikan_dana_investor_?.html");
 	section_content[0].innerHTML="berapa yusuf mansur harus mengembalikan dana investor ?";
+	img_md[0].setAttribute("src","css/gambar_13.jpg");
+	img_lg[0].setAttribute("src","css/gambar_13.jpg");
 
 	news_link[1].setAttribute("href","membicarakan_yusuf_mansur,_bukan_ghibah.html");
 	section_content[1].innerHTML="membicarakan yusuf mansur, bukan ghibah";
+	img_md[1].setAttribute("src","css/gambar_14.jpg");
+	img_lg[1].setAttribute("src","css/gambar_14.jpg");
 
 	news_content[2].classList.add("d-none");
 	news_content[3].classList.add("d-none");

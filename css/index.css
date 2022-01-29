@@ -130,7 +130,7 @@
 
 div.news-top {
 
-	font-size: 35px;
+	font-size: 2.5vw;
 	font-family: "trebuc";
 }
 
@@ -177,7 +177,7 @@ a.news-link {
 .news-bottom {
 
 	font-family: "calibri";
-	font-size: 25px;
+	font-size: 1.7vw;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -196,11 +196,6 @@ a.news-link {
 	.news-content {
 
 		height: 100%;
-	}
-
-	.news-bottom {
-
-		font-size: 2vw;
 	}	
 }
 
@@ -248,7 +243,7 @@ a.news-link {
 
 	.news-bottom {
 
-		font-size: 2.4vw;
+		font-size: 2vw;
 	}	
 }
 
@@ -259,9 +254,9 @@ a.news-link {
 
 @media only screen and (min-width: 0px) and (max-width: 575px) {
 
-	div.news-top {
+	div	news-top {
 
-		font-size: 20px;
+		font-size: 4.7vw;
 	}
 
 	.page-item:hover {
