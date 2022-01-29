@@ -254,7 +254,7 @@ a.news-link {
 
 @media only screen and (min-width: 0px) and (max-width: 575px) {
 
-	div	news-top {
+	div	.news-top {
 
 		font-size: 4.7vw;
 	}
