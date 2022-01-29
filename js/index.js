@@ -14,7 +14,7 @@ $(document).ready(function() {
 	$("[src='css/logo_rumongso1.png']").animate({opacity: '1',bottom: '0px'},700,"jswing");
 	$(".navbar-expand .nav-item").animate({opacity: '1',top: '3px'},700,"jswing");
 	$(".button-toggler").animate({opacity: '1',bottom: '0px'},700,"jswing");
-	$("a.news-link").animate({opacity:"1",right:"0px"},800,"jswing");
+	$("a.news-link").animate({opacity:'1',right:'0px'},800,"jswing");
 });
 
 function MOUSEOVER_NAVBAR (e) {
