@@ -477,7 +477,10 @@ function PAGINATION_CLICK (e) {
 
 function IMG_NEWS_OVER(e) {
 
-	VanillaTilt.init(img_lg,{max: 10,speed: 250});
+	for(var i=0; i<img_lg.length; i++) {
+
+		VanillaTilt.init(img_lg[i],{max: 10,speed: 250});
+	}
 }
 
 var nav_text=document.querySelectorAll(".navbar-nav .nav-item");
@@ -507,7 +510,7 @@ var page_item=document.querySelectorAll(".pagination .page-item");
 		}
 	}
 
-for(var i=0; i<img_lg.length; i++) {
+for(var i=0; i<news_link.length; i++) {
 
-	img_lg[i].addEventListener("mouseover",IMG_NEWS_OVER);
+	news_link[i].addEventListener("mouseover",IMG_NEWS_OVER);
 }
