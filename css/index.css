@@ -45,7 +45,7 @@
 	opacity: 0;
 	bottom: 10px;
 	position: relative;
-	transition: all 0.3 ease-out 0s;
+	/*transition: all 0.3 ease-out 0s;*/
 }
 
 .navbar-expand [src="css/logo_rumongso1.png"] {
