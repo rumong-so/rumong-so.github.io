@@ -45,7 +45,6 @@
 	opacity: 0;
 	bottom: 10px;
 	position: relative;
-	/*transition: all 0.3 ease-out 0s;*/
 }
 
 .navbar-expand [src="css/logo_rumongso1.png"] {
@@ -161,7 +160,6 @@ a.news-link {
 	position: relative;
 	right: 30px;
 	opacity: 0;
-	transition: all 0.3 ease-out 0s;
 }
 
 .news-bottom {
@@ -262,5 +260,10 @@ a.news-link {
 	.news-bottom {
 
 		font-size: 4.7vw;
+	}
+
+	a.news-link {
+
+		right: 50px;
 	}
 }
