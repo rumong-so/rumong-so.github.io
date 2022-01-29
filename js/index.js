@@ -475,6 +475,11 @@ function PAGINATION_CLICK (e) {
 	}
 }
 
+function IMG_NEWS_OVER(e) {
+
+	VanillaTilt.init(img_lg,{max: 10,speed: 250});
+}
+
 var nav_text=document.querySelectorAll(".navbar-nav .nav-item");
 
 	for(var i=0; i<nav_text.length; i++) {
@@ -501,3 +506,8 @@ var page_item=document.querySelectorAll(".pagination .page-item");
 			pagination_active=page_item[i];
 		}
 	}
+
+for(var i=0; i<img_lg.length; i++) {
+
+	img_lg[i].addEventListener("mouseover",IMG_NEWS_OVER);
+}
