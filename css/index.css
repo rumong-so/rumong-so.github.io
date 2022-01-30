@@ -40,19 +40,19 @@
 	text-decoration: none;
 }
 
-[src="css/logo_rumongso1.png"] {
+[src="pictures/logo_rumongso1.png"] {
 
 	opacity: 0;
 	bottom: 10px;
 	position: relative;
 }
 
-.navbar-expand [src="css/logo_rumongso1.png"] {
+.navbar-expand [src="pictures/logo_rumongso1.png"] {
 
 	width: 40%;
 }
 
-.navbar-expand-lg [src="css/logo_rumongso1.png"] {
+.navbar-expand-lg [src="pictures/logo_rumongso1.png"] {
 
 	width: 150px;
 }
@@ -170,7 +170,7 @@ a.news-link {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 
-	.navbar-expand [src="css/logo_rumongso1.png"] {
+	.navbar-expand [src="pictures/logo_rumongso1.png"] {
 
 		width: 45%;
 	}
@@ -189,7 +189,7 @@ a.news-link {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
-	.navbar-expand-lg [src="css/logo_rumongso1.png"] {
+	.navbar-expand-lg [src="pictures/logo_rumongso1.png"] {
 
 		width: 190px;
 	}
