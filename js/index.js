@@ -8,14 +8,23 @@ var img_content_lg=document.querySelectorAll("div.news-middle img.d-lg-inline");
 var section_content=document.querySelectorAll("div.news-bottom");
 var news_content=document.querySelectorAll(".news-content");
 var news_link=document.querySelectorAll("a.news-link");
-var name_menu,toggler_active,pagination_active;
+var name_menu,toggler_active,pagination_active,fade_right_300;
+
+fade_right_300=document.querySelectorAll(".fade-right-300");
+	
+	for(var i=0; i<fade_right_300.length; i++) {
+
+		fade_right_300[i].dataset.aos="fade-right";
+		fade_right_300[i].dataset.aosDuration="1000";
+		fade_right_300[i].dataset.aosDelay="300";
+	}
 
 $(document).ready(function() {
 
 	$("[src='pictures/logo_rumongso1.png']").animate({opacity: '1',bottom: '0px'},700,"jswing");
 	$(".navbar-expand .nav-item").animate({opacity: '1',top: '3px'},700,"jswing");
 	$(".button-toggler").animate({opacity: '1',bottom: '0px'},700,"jswing");
-	$("a.news-link").animate({opacity:'1',right:'0px'},800,"jswing");
+	$(".news-link").animate({opacity:'1',right:'0px'},800,"jswing");
 });
 
 function MOUSEOVER_NAVBAR (e) {
@@ -249,6 +258,15 @@ function PAGE_ITEM_4() {
 	news_content[3].classList.add("d-none");
 }
 
+function PAGE_ITEM_5() {
+
+	news_link[0].setAttribute("href","hoaks.html");
+	title_content[0].innerHTML="hoaks";
+	img_content_md[0].setAttribute("src","pictures/gambar_15.jpg");
+	img_content_lg[0].setAttribute("src","pictures/gambar_15.jpg");
+	section_content_1a="Hoaks adalah berita atau informasi yang tidak benar yang beredar di tengah-tengah masyarakat. Pada awal bulan Oktober 2018, pekerja seni ";
+}
+
 function PAGINATION_CLICK (e) {
 
 	if(e.target.innerHTML=="1") {
@@ -298,10 +316,10 @@ function PAGINATION_CLICK (e) {
 			pagination_active=page_item[3]		
 			page_item[0].classList.remove("d-none");
 
-				if(page_item[4].classList.contains("d-none")==true) {
+			if(page_item[4].classList.contains("d-none")==true) {
 
-					page_item[5].classList.add("d-none");
-				}
+				page_item[5].classList.add("d-none");
+			}
 		}		
 
 		PAGE_ITEM_3();
@@ -322,6 +340,22 @@ function PAGINATION_CLICK (e) {
 
 		PAGE_ITEM_4();
 
+	} else if (e.target.innerHTML=="5") {
+
+		if(page_item[2].classList.contains("active")==false) {
+
+			page_item[2].classList.add("active");
+			pagination_active.classList.remove("active");
+			pagination_active=page_item[2];
+
+			if(page_item[3].classList.contains("d-none")==true) {
+
+				page_item[5].classList.add("d-none");
+			}		
+		}		
+
+		PAGE_ITEM_5();		
+
 	} else if (e.target.innerHTML=="...") {
 
 		if(page_item[1].classList.contains("active")==false) {
@@ -333,6 +367,7 @@ function PAGINATION_CLICK (e) {
 			if(page_link_top[3].innerHTML=="3") {
 
 				page_link_top[1].innerHTML="4";
+				// page_link_top[2].innerHTML="5";
 				page_item[2].classList.add("d-none");
 				page_item[3].classList.add("d-none");
 				page_item[4].classList.add("d-none");
@@ -348,6 +383,7 @@ function PAGINATION_CLICK (e) {
 			if(page_link_top[3].innerHTML=="3") {
 
 				page_link_top[1].innerHTML="4";
+				// page_link_top[2].innerHTML="5";
 				page_item[2].classList.add("d-none");
 				page_item[3].classList.add("d-none");
 				page_item[4].classList.add("d-none");
@@ -445,6 +481,7 @@ function PAGINATION_CLICK (e) {
 							if(page_link_top[3].innerHTML=="3") {
 
 								page_link_top[1].innerHTML="4";
+								// page_link_top[2].innerHTML="5";
 								page_item[2].classList.add("d-none");
 								page_item[3].classList.add("d-none");
 								page_item[4].classList.add("d-none");
@@ -509,6 +546,7 @@ function PAGINATION_CLICK (e) {
 								if(page_link_top[1].innerHTML=="4") {
 
 									page_link_top[1].innerHTML="1";
+									// page_link_top[2].innerHTML="2";
 									page_item[2].classList.remove("d-none");
 									page_item[3].classList.remove("d-none");
 									page_item[4].classList.remove("d-none");
