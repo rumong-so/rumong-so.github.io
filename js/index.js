@@ -105,44 +105,46 @@ function PAGE_ITEM_1() {
 		var section_content_3a,section_content_3b,section_content_3c,section_content_3d,section_content_3e;
 	var section_content_4a,section_content_4b,section_content_4c,section_content_4d,section_content_4e;
 
-		if(news_content[3].classList.contains("d-none")==true) {
+		// if(news_content[3].classList.contains("d-none")==true) {
 
-			news_content[3].classList.remove("d-none");
-		}
+		// 	news_content[3].classList.remove("d-none");
+		// }
 
 	news_link[0].setAttribute("href","hoaks.html");
 	title_content[0].innerHTML="hoaks";
 	img_content_md[0].setAttribute("src","pictures/gambar_15.jpg");
 	img_content_lg[0].setAttribute("src","pictures/gambar_15.jpg");
-	section_content_1a="Hoaks adalah berita atau informasi yang tidak benar yang beredar di tengah-tengah masyarakat. Pada awal bulan Oktober 2018, pekerja seni ";
-	section_content_1b="panggung, Ratna Sarumpaet, mengaku dianiaya orang di Bandung, Jawa Barat. Simpati datang kepadanya. Sementara hujatan dan makian dialamatkan ";
-	section_content_1c="orang kepada si penganiaya. Ruapanya, si Ratna \"khilaf\", bahwa apa yang dia omongkan itu bukan di panggung...";
+	section_content_1a="Imam Nawawi dalam kitabnya Al-Majmu’ Syarah Al-Muhadzab, berpendapat, bahwa mayoritas ulama sependirian bahwa bersedekah kepada keluarga ";
+	section_content_1b="utama dibandingkan pada yang lain. Mari kita ikuti sebuah hadits yang cukup panjang untuk memberikan gambaran yang utuh tentang anjuran ";
+	section_content_1c="tersebut, sebagai berikut: “Rasulullah Shallallahu ‘Alaihi wa Sallam keluar menuju masjid untuk menunaikan shalat Idul Adha atau...";
 	section_content[0].innerHTML=`${section_content_1a} ${section_content_1b} ${section_content_1c}`;		
 
-	news_link[1].setAttribute("href","menghindari_kerusakan_sosial_lebih_di_kedepankan.html");
-	title_content[1].innerHTML="menghindari kerusakan sosial lebih di kedepankan";
-	img_content_md[1].setAttribute("src","pictures/gambar_1.jpg");
-	img_content_lg[1].setAttribute("src","pictures/gambar_1.jpg");
-	section_content_2a="Dalam perjuangan menegakkan Amar Makruf Nahyi Munkar, seringkali kita menghadapi dilemma. Yaitu saat kita dapati bahwa yang berbuat aib,";
-	section_content_2b="kedhaliman, kemunkaran, dan kemunafikan, itu adalah orang terdekat kita, saudara kita, baik saudara sedarah maupun seiman. Dilemma antara, ";
-	section_content_2c="apakah kita wajib menutupinya, mengingat sabda Nabi saw, مَنْ سَتَرَ مُسْلِمًا سَتَرَهُ اللَّهُ فِي الدُّنْيَا وَالْآخِرَةِ“ \" Barang Siapa menutupi...";
+	news_link[1].setAttribute("href","hoaks.html");
+	title_content[1].innerHTML="hoaks";
+	img_content_md[1].setAttribute("src","pictures/gambar_15.jpg");
+	img_content_lg[1].setAttribute("src","pictures/gambar_15.jpg");
+	section_content_2a="Hoaks adalah berita atau informasi yang tidak benar yang beredar di tengah-tengah masyarakat. Pada awal bulan Oktober 2018, pekerja seni ";
+	section_content_2b="panggung, Ratna Sarumpaet, mengaku dianiaya orang di Bandung, Jawa Barat. Simpati datang kepadanya. Sementara hujatan dan makian dialamatkan ";
+	section_content_2c="orang kepada si penganiaya. Ruapanya, si Ratna \"khilaf\", bahwa apa yang dia omongkan itu bukan di panggung...";
 	section_content[1].innerHTML=`${section_content_2a} ${section_content_2b} ${section_content_2c}`;
 
-	news_link[2].setAttribute("href","bernahi_munkar_kepada_yusuf_mansur.html");
-	title_content[2].innerHTML="bernahi munkar kepada yusuf mansur";
-	img_content_md[2].setAttribute("src","pictures/gambar_2.jpg");
-	img_content_lg[2].setAttribute("src","pictures/gambar_2.jpg");
-	section_content_3a="Akhir-akhir ini, pencermah Jam’an Nurchotib Mansur yang popular dipanggil Yusuf Mansur, mengalami banyak hujatan dan gugatan. Hujatan dari ";
-	section_content_3b="berbagai pihak lewat channel youtube, berita di media (online, koran, dan televisi), serta gugatan melalui pengadilan. Banyaknya hujatan dan ";
-	section_content_3c="gugatan itu adalah tindak lanjut dari pelaksanaan amar ma’ruf nahi mungkar yang tidak ditanggapi secara serus oleh Jam’an...";
+	news_link[2].setAttribute("href","menghindari_kerusakan_sosial_lebih_di_kedepankan.html");
+	title_content[2].innerHTML="menghindari kerusakan sosial lebih di kedepankan";
+	img_content_md[2].setAttribute("src","pictures/gambar_1.jpg");
+	img_content_lg[2].setAttribute("src","pictures/gambar_1.jpg");
+	section_content_3a="Dalam perjuangan menegakkan Amar Makruf Nahyi Munkar, seringkali kita menghadapi dilemma. Yaitu saat kita dapati bahwa yang berbuat aib,";
+	section_content_3b="kedhaliman, kemunkaran, dan kemunafikan, itu adalah orang terdekat kita, saudara kita, baik saudara sedarah maupun seiman. Dilemma antara, ";
+	section_content_3c="apakah kita wajib menutupinya, mengingat sabda Nabi saw, مَنْ سَتَرَ مُسْلِمًا سَتَرَهُ اللَّهُ فِي الدُّنْيَا وَالْآخِرَةِ“ \" Barang Siapa menutupi...";
 	section_content[2].innerHTML=`${section_content_3a} ${section_content_3b} ${section_content_3c}`;
 
-	news_link[3].setAttribute("href","kali_ini_yusuf_mansyur_tidak_akan_bisa_berkelit_dari_jeratan_hukum.html");
-	title_content[3].innerHTML="kali ini yusuf mansyur tidak akan bisa berkelit dari jeratan hukum";
-	img_content_md[3].setAttribute("src","pictures/gambar_3.jpg");
-	img_content_lg[3].setAttribute("src","pictures/gambar_3.jpg");
-	section_content[3].innerHTML="";
-
+	news_link[3].setAttribute("href","bernahi_munkar_kepada_yusuf_mansur.html");
+	title_content[3].innerHTML="bernahi munkar kepada yusuf mansur";
+	img_content_md[3].setAttribute("src","pictures/gambar_2.jpg");
+	img_content_lg[3].setAttribute("src","pictures/gambar_2.jpg");
+	section_content_4a="Akhir-akhir ini, pencermah Jam’an Nurchotib Mansur yang popular dipanggil Yusuf Mansur, mengalami banyak hujatan dan gugatan. Hujatan dari ";
+	section_content_4b="berbagai pihak lewat channel youtube, berita di media (online, koran, dan televisi), serta gugatan melalui pengadilan. Banyaknya hujatan dan ";
+	section_content_4c="gugatan itu adalah tindak lanjut dari pelaksanaan amar ma’ruf nahi mungkar yang tidak ditanggapi secara serus oleh Jam’an...";
+	section_content[3].innerHTML=`${section_content_4a} ${section_content_4b} ${section_content_4c}`;
 }
 
 function PAGE_ITEM_2() {
@@ -152,38 +154,37 @@ function PAGE_ITEM_2() {
 		var section_content_3a,section_content_3b,section_content_3c,section_content_3d,section_content_3e;
 	var section_content_4a,section_content_4b,section_content_4c,section_content_4d,section_content_4e;
 
-		if(news_content[3].classList.contains("d-none")==true) {
+		// if(news_content[3].classList.contains("d-none")==true) {
 
-			news_content[3].classList.remove("d-none");
-		}
+		// 	news_content[3].classList.remove("d-none");
+		// }
 
-	news_link[0].setAttribute("href","ustadz_tabrani_sabirin:_bisnis_yusuf_mansur_pasti_hancur.html");
-	title_content[0].innerHTML="ustadz tabrani sabirin: bisnis yusuf mansur pasti hancur";
-	img_content_md[0].setAttribute("src","pictures/gambar_4.jpg");
-	img_content_lg[0].setAttribute("src","pictures/gambar_4.jpg");
-	section_content[0].innerHTML="";
+	news_link[0].setAttribute("href","kali_ini_yusuf_mansyur_tidak_akan_bisa_berkelit_dari_jeratan_hukum.html");
+	title_content[0].innerHTML="kali ini yusuf mansyur tidak akan bisa berkelit dari jeratan hukum";
+	img_content_md[0].setAttribute("src","pictures/gambar_3.jpg");
+	img_content_lg[0].setAttribute("src","pictures/gambar_3.jpg");
+	section_content[0].innerHTML="";		
 
-	news_link[1].setAttribute("href","akal_-_akalan_yusuf_mansur_mengembalikan_dana_investor.html");
-	title_content[1].innerHTML="akal - akalan yusuf mansur mengembalikan dana investor";
-	img_content_md[1].setAttribute("src","pictures/gambar_5.jpg");
-	img_content_lg[1].setAttribute("src","pictures/gambar_5.jpg");
-	section_content_2a="Melalui sebuah Channel Youtube, tiga hari lalu, seorang yang mengaku Bernama Mokhammad Sholeh Bakhri, warga Mojokerto, JawaTimur, membuat ";
-	section_content_2b="testimoni. Bahwa dirinya, pada tahun 2012 ikut Patungan Usaha dan Patungan Aset yang diinisiasi oleh Yusuf Mansur. Total invetasi yang ia ";
-	section_content_2c="tanam sebesar Rp14 juta. Desember lalu, Sholeh menghubungi Rofii yang katanya bisa menghubungkan ke Yusuf Mansur...";
-	section_content[1].innerHTML=`${section_content_2a} ${section_content_2b} ${section_content_2c}`;	
+	news_link[1].setAttribute("href","ustadz_tabrani_sabirin:_bisnis_yusuf_mansur_pasti_hancur.html");
+	title_content[1].innerHTML="ustadz tabrani sabirin: bisnis yusuf mansur pasti hancur";
+	img_content_md[1].setAttribute("src","pictures/gambar_4.jpg");
+	img_content_lg[1].setAttribute("src","pictures/gambar_4.jpg");
+	section_content[1].innerHTML="";
 
-	news_link[2].setAttribute("href","uztadz_tabrani_sabirin:_yusuf_mansur_itu_islam_sontoloyo.html");
-	title_content[2].innerHTML="uztadz tabrani sabirin: yusuf mansur itu islam sontoloyo";
-	img_content_md[2].setAttribute("src","pictures/gambar_6.jpg");
-	img_content_lg[2].setAttribute("src","pictures/gambar_6.jpg");
-	section_content[2].innerHTML="";
+	news_link[2].setAttribute("href","akal_-_akalan_yusuf_mansur_mengembalikan_dana_investor.html");
+	title_content[2].innerHTML="akal - akalan yusuf mansur mengembalikan dana investor";
+	img_content_md[2].setAttribute("src","pictures/gambar_5.jpg");
+	img_content_lg[2].setAttribute("src","pictures/gambar_5.jpg");
+	section_content_3a="Melalui sebuah Channel Youtube, tiga hari lalu, seorang yang mengaku Bernama Mokhammad Sholeh Bakhri, warga Mojokerto, JawaTimur, membuat ";
+	section_content_3b="testimoni. Bahwa dirinya, pada tahun 2012 ikut Patungan Usaha dan Patungan Aset yang diinisiasi oleh Yusuf Mansur. Total invetasi yang ia ";
+	section_content_3c="tanam sebesar Rp14 juta. Desember lalu, Sholeh menghubungi Rofii yang katanya bisa menghubungkan ke Yusuf Mansur...";
+	section_content[2].innerHTML=`${section_content_3a} ${section_content_3b} ${section_content_3c}`;
 
-	news_link[3].setAttribute("href","ustadz_tabrani_sabirin:_yusuf_mansur_sakit_jiwa.html");
-	title_content[3].innerHTML="ustadz tabrani sabirin: yusuf mansur sakit jiwa";
-	img_content_md[3].setAttribute("src","pictures/gambar_7.jpg");
-	img_content_lg[3].setAttribute("src","pictures/gambar_7.jpg");
+	news_link[3].setAttribute("href","uztadz_tabrani_sabirin:_yusuf_mansur_itu_islam_sontoloyo.html");
+	title_content[3].innerHTML="uztadz tabrani sabirin: yusuf mansur itu islam sontoloyo";
+	img_content_md[3].setAttribute("src","pictures/gambar_6.jpg");
+	img_content_lg[3].setAttribute("src","pictures/gambar_6.jpg");
 	section_content[3].innerHTML="";
-
 }
 
 function PAGE_ITEM_3() {
@@ -193,38 +194,34 @@ function PAGE_ITEM_3() {
 		var section_content_3a,section_content_3b,section_content_3c,section_content_3d,section_content_3e;
 	var section_content_4a,section_content_4b,section_content_4c,section_content_4d,section_content_4e;
 
-		if(news_content[3].classList.contains("d-none")==true) {
+		// if(news_content[3].classList.contains("d-none")==true) {
 
-			news_content[3].classList.remove("d-none");
-		}
+		// 	news_content[3].classList.remove("d-none");
+		// }
 
-	news_link[0].setAttribute("href","ustadz_tabrani_sabirin:_yusuf_mansur_pembohong.html");
-	title_content[0].innerHTML="ustadz tabrani sabirin: yusuf mansur pembohong";
-	img_content_md[0].setAttribute("src","pictures/gambar_8.jpg");
-	img_content_lg[0].setAttribute("src","pictures/gambar_8.jpg");
-	section_content[0].innerHTML="";
+	news_link[0].setAttribute("href","ustadz_tabrani_sabirin:_yusuf_mansur_sakit_jiwa.html");
+	title_content[0].innerHTML="ustadz tabrani sabirin: yusuf mansur sakit jiwa";
+	img_content_md[0].setAttribute("src","pictures/gambar_7.jpg");
+	img_content_lg[0].setAttribute("src","pictures/gambar_7.jpg");
+	section_content[0].innerHTML="";		
 
-	news_link[1].setAttribute("href","bersedekah_kok_bangkrut.html");
-	title_content[1].innerHTML="bersedekah kok bangkrut";
-	img_content_md[1].setAttribute("src","pictures/gambar_9.jpg");
-	img_content_lg[1].setAttribute("src","pictures/gambar_9.jpg");
+	news_link[1].setAttribute("href","ustadz_tabrani_sabirin:_yusuf_mansur_pembohong.html");
+	title_content[1].innerHTML="ustadz tabrani sabirin: yusuf mansur pembohong";
+	img_content_md[1].setAttribute("src","pictures/gambar_8.jpg");
+	img_content_lg[1].setAttribute("src","pictures/gambar_8.jpg");
 	section_content[1].innerHTML="";
 
-	news_link[2].setAttribute("href","combe_-_combe_yusuf_mansur.html");
-	title_content[2].innerHTML="combe - combe yusuf mansur";
-	img_content_md[2].setAttribute("src","pictures/gambar_10.jpg");
-	img_content_lg[2].setAttribute("src","pictures/gambar_10.jpg");
+	news_link[2].setAttribute("href","bersedekah_kok_bangkrut.html");
+	title_content[2].innerHTML="bersedekah kok bangkrut";
+	img_content_md[2].setAttribute("src","pictures/gambar_9.jpg");
+	img_content_lg[2].setAttribute("src","pictures/gambar_9.jpg");
 	section_content[2].innerHTML="";
 
-	news_link[3].setAttribute("href","puspo_wardoyo_tantang_yusuf_mansur_buka_data_ke_publik.html");
-	title_content[3].innerHTML="puspo wardoyo tantang yusuf mansur buka data ke publik";
-	img_content_md[3].setAttribute("src","pictures/gambar_11.jpg");
-	img_content_lg[3].setAttribute("src","pictures/gambar_11.jpg");
-	section_content_4a="Di acara Hotman Paris Show yang ditayangkan oleh stasiun televisi, Yusuf Mansur membawa setumpuk “barang bukti” bahwa dia telah mengembalikan ";
-	section_content_4b="investasi 2500 orang yang ikut Patungan Usaha. Beberapa hari lalu juga muncul video bahwa Yusuf Mansur menunjukkan “barang bukti” tersebut dan ";
-	section_content_4c="disiarkan oleh Daqu Channel miliknya. Menurut Yusuf Mansur, peserta Patungan Usaha berjumlah 2900 orang,...";
-	section_content[3].innerHTML=`${section_content_4a} ${section_content_4b} ${section_content_4c}`;	
-
+	news_link[3].setAttribute("href","combe_-_combe_yusuf_mansur.html");
+	title_content[3].innerHTML="combe - combe yusuf mansur";
+	img_content_md[3].setAttribute("src","pictures/gambar_10.jpg");
+	img_content_lg[3].setAttribute("src","pictures/gambar_10.jpg");
+	section_content[3].innerHTML="";	
 }
 
 function PAGE_ITEM_4() {
@@ -234,28 +231,35 @@ function PAGE_ITEM_4() {
 		var section_content_3a,section_content_3b,section_content_3c,section_content_3d,section_content_3e;
 	var section_content_4a,section_content_4b,section_content_4c,section_content_4d,section_content_4e;
 
-	news_link[0].setAttribute("href","yusuf_mansur,_kembalikan_dana_investor_?.html");
-	title_content[0].innerHTML="yusuf mansur, kembalikan dana investor ?";
-	img_content_md[0].setAttribute("src","pictures/gambar_12.jpg");
-	img_content_lg[0].setAttribute("src","pictures/gambar_12.jpg");
-	section_content_1a="Beredar video pendek berdurasi 45 detik dari Channel Daqu, bahwa Yusuf Mansur menunjukkan setumpuk dokumen yang katanya itulah bukti bahwa ";
-	section_content_1b="ia telah mengembalikan uang para investor Patungan Usaha, sejak 2012 sampai 2021. Menurut Yusuf Mansur, sepanjang 2012 – 2021, dia telah ";
-	section_content_1c="mengembalikan dana Patungan Usaha kepada 2500 orang. Sebagaimana pengakuan Yusuf Mansur sendiri, dari 2900...";
-	section_content[0].innerHTML=`${section_content_1a} ${section_content_1b} ${section_content_1c}`;
+	news_link[0].setAttribute("href","puspo_wardoyo_tantang_yusuf_mansur_buka_data_ke_publik.html");
+	title_content[0].innerHTML="puspo wardoyo tantang yusuf mansur buka data ke publik";
+	img_content_md[0].setAttribute("src","pictures/gambar_11.jpg");
+	img_content_lg[0].setAttribute("src","pictures/gambar_11.jpg");
+	section_content_1a="Di acara Hotman Paris Show yang ditayangkan oleh stasiun televisi, Yusuf Mansur membawa setumpuk “barang bukti” bahwa dia telah mengembalikan ";
+	section_content_1b="investasi 2500 orang yang ikut Patungan Usaha. Beberapa hari lalu juga muncul video bahwa Yusuf Mansur menunjukkan “barang bukti” tersebut dan ";
+	section_content_1c="disiarkan oleh Daqu Channel miliknya. Menurut Yusuf Mansur, peserta Patungan Usaha berjumlah 2900 orang,...";
+	section_content[0].innerHTML=`${section_content_1a} ${section_content_1b} ${section_content_1c}`;	
 
-	news_link[1].setAttribute("href","berapa_yusuf_mansur_harus_mengembalikan_dana_investor_?.html");
-	title_content[1].innerHTML="berapa yusuf mansur harus mengembalikan dana investor ?";
-	img_content_md[1].setAttribute("src","pictures/gambar_13.jpg");
-	img_content_lg[1].setAttribute("src","pictures/gambar_13.jpg");
-	section_content[1].innerHTML="";
+	news_link[1].setAttribute("href","yusuf_mansur,_kembalikan_dana_investor_?.html");
+	title_content[1].innerHTML="yusuf mansur, kembalikan dana investor ?";
+	img_content_md[1].setAttribute("src","pictures/gambar_12.jpg");
+	img_content_lg[1].setAttribute("src","pictures/gambar_12.jpg");
+	section_content_2a="Beredar video pendek berdurasi 45 detik dari Channel Daqu, bahwa Yusuf Mansur menunjukkan setumpuk dokumen yang katanya itulah bukti bahwa ";
+	section_content_2b="ia telah mengembalikan uang para investor Patungan Usaha, sejak 2012 sampai 2021. Menurut Yusuf Mansur, sepanjang 2012 – 2021, dia telah ";
+	section_content_2c="mengembalikan dana Patungan Usaha kepada 2500 orang. Sebagaimana pengakuan Yusuf Mansur sendiri, dari 2900...";
+	section_content[1].innerHTML=`${section_content_2a} ${section_content_2b} ${section_content_2c}`;
 
-	news_link[2].setAttribute("href","membicarakan_yusuf_mansur,_bukan_ghibah.html");
-	title_content[2].innerHTML="membicarakan yusuf mansur, bukan ghibah";
-	img_content_md[2].setAttribute("src","pictures/gambar_14.jpg");
-	img_content_lg[2].setAttribute("src","pictures/gambar_14.jpg");
+	news_link[2].setAttribute("href","berapa_yusuf_mansur_harus_mengembalikan_dana_investor_?.html");
+	title_content[2].innerHTML="berapa yusuf mansur harus mengembalikan dana investor ?";
+	img_content_md[2].setAttribute("src","pictures/gambar_13.jpg");
+	img_content_lg[2].setAttribute("src","pictures/gambar_13.jpg");
 	section_content[2].innerHTML="";
 
-	news_content[3].classList.add("d-none");
+	news_link[3].setAttribute("href","membicarakan_yusuf_mansur,_bukan_ghibah.html");
+	title_content[3].innerHTML="membicarakan yusuf mansur, bukan ghibah";
+	img_content_md[3].setAttribute("src","pictures/gambar_14.jpg");
+	img_content_lg[3].setAttribute("src","pictures/gambar_14.jpg");
+	section_content[3].innerHTML="";
 }
 
 function PAGE_ITEM_5() {
