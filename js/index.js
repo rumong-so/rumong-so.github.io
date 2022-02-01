@@ -19,6 +19,32 @@ fade_right_300=document.querySelectorAll(".fade-right-300");
 		fade_right_300[i].dataset.aosDelay="300";
 	}
 
+fade_down_300=document.querySelectorAll(".fade-down-300");
+	
+	for(var i=0; i<fade_down_300.length; i++) {
+
+		fade_down_300[i].dataset.aos="fade-down";
+		fade_down_300[i].dataset.aosDuration="1000";
+		fade_down_300[i].dataset.aosDelay="300";
+	}	
+
+var fade_down=document.querySelectorAll(".fade-down");
+
+  for(var i=0; i<fade_down.length; i++) {
+
+    fade_down[i].dataset.aos="fade-down";
+    fade_down[i].dataset.aosDuration="1000";
+  }
+
+var fade_down_300=document.querySelectorAll(".fade-down-300");
+
+  for(var i=0; i<fade_down_300; i++) {
+
+    fade_down_300[i].dataset.aos="fade-down"
+    fade_down_300[i].dataset.aosDuration="1000"
+    fade_down_300[i].dataset.aosDelay="500"
+  }   
+
 $(document).ready(function() {
 
 	$("[src='pictures/logo_rumongso1.png']").animate({opacity: '1',bottom: '0px'},700,"jswing");
@@ -112,11 +138,11 @@ function PAGE_ITEM_1() {
 
 	news_link[0].setAttribute("href","hoaks.html");
 	title_content[0].innerHTML="hoaks";
-	img_content_md[0].setAttribute("src","pictures/gambar_15.jpg");
-	img_content_lg[0].setAttribute("src","pictures/gambar_15.jpg");
+	img_content_md[0].setAttribute("src","pictures/gambar_16.jpg");
+	img_content_lg[0].setAttribute("src","pictures/gambar_16.jpg");
 	section_content_1a="Imam Nawawi dalam kitabnya Al-Majmu’ Syarah Al-Muhadzab, berpendapat, bahwa mayoritas ulama sependirian bahwa bersedekah kepada keluarga ";
 	section_content_1b="utama dibandingkan pada yang lain. Mari kita ikuti sebuah hadits yang cukup panjang untuk memberikan gambaran yang utuh tentang anjuran ";
-	section_content_1c="tersebut, sebagai berikut: “Rasulullah Shallallahu ‘Alaihi wa Sallam keluar menuju masjid untuk menunaikan shalat Idul Adha atau...";
+	section_content_1c="tersebut, sebagai berikut: “Rasulullah Shallallahu ‘Alaihi wa Sallam keluar menuju masjid untuk menunaikan shalat Idul Adha atau...	";
 	section_content[0].innerHTML=`${section_content_1a} ${section_content_1b} ${section_content_1c}`;		
 
 	news_link[1].setAttribute("href","hoaks.html");
