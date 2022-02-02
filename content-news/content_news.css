@@ -2,25 +2,19 @@
 @font-face {
 
 	font-family: "trebuc";
-	src: url('trebuc.ttf');
+	src: url('../css/trebuc.ttf');
 }
 
 @font-face {
 
 	font-family: "calibri";
-	src: url('calibri.ttf');
+	src: url('../css/calibri.ttf');
 }
-
-/*@font-face {
-
-	font-family: "refsan";
-	src: url('REFSAN.ttf');
-}*/
 
 @font-face {
 
 	font-family: "consola";
-	src: url('consola.ttf');
+	src: url('../css/consola.ttf');
 }
 
 .bg-lavender {
@@ -40,19 +34,19 @@
 	text-decoration: none;
 }
 
-[src="pictures/logo_rumongso1.png"] {
+[src="../pictures/logo_rumongso1.png"] {
 
 	opacity: 0;
 	bottom: 10px;
 	position: relative;
 }
 
-.navbar-expand [src="pictures/logo_rumongso1.png"] {
+.navbar-expand [src="../pictures/logo_rumongso1.png"] {
 
 	width: 40%;
 }
 
-.navbar-expand-lg [src="pictures/logo_rumongso1.png"] {
+.navbar-expand-lg [src="../pictures/logo_rumongso1.png"] {
 
 	width: 150px;
 }
@@ -184,7 +178,7 @@ footer.jumbotron {
 
 	position: relative;
 	top: 35px;
-	z-index: 10;
+	z-index: 5;
 }
 
 footer.jumbotron .label-company {
@@ -214,7 +208,7 @@ footer.jumbotron .label-company {
 	bottom: 4px;
 }
 
-.jumbotron [src='pictures/logo_rumongso1.png'] {
+.jumbotron [src='../pictures/logo_rumongso1.png'] {
 
 	width: 150px;
 }	
@@ -244,7 +238,7 @@ footer.jumbotron .label-company {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 
-	.navbar-expand [src="pictures/logo_rumongso1.png"] {
+	.navbar-expand [src="../pictures/logo_rumongso1.png"] {
 
 		width: 45%;
 	}
@@ -285,7 +279,7 @@ footer.jumbotron .label-company {
 		font-size: 14.3px;
 	}			
 
-	.jumbotron [src='pictures/logo_rumongso1.png'] {
+	.jumbotron [src='../pictures/logo_rumongso1.png'] {
 
 		width: 123px;
 	}
@@ -301,7 +295,7 @@ footer.jumbotron .label-company {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
-	.navbar-expand-lg [src="pictures/logo_rumongso1.png"] {
+	.navbar-expand-lg [src="../pictures/logo_rumongso1.png"] {
 
 		width: 190px;
 	}
@@ -376,7 +370,7 @@ footer.jumbotron .label-company {
 		left: 2px;
 	}		
 
-	.jumbotron [src='pictures/logo_rumongso1.png'] {
+	.jumbotron [src='../pictures/logo_rumongso1.png'] {
 
 		width: 210px;
 	}
@@ -415,7 +409,7 @@ footer.jumbotron .label-company {
 		left: 2px;
 	}		
 
-	.jumbotron [src='pictures/logo_rumongso1.png'] {
+	.jumbotron [src='../pictures/logo_rumongso1.png'] {
 
 		width: 45px;
 	}
@@ -469,7 +463,7 @@ footer.jumbotron .label-company {
 		left: 2px;
 	}		
 
-	.jumbotron [src='pictures/logo_rumongso1.png'] {
+	.jumbotron [src='../pictures/logo_rumongso1.png'] {
 
 		width: 200px;
 	}
